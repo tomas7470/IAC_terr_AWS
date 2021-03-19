@@ -31,9 +31,9 @@ jobs:
         uses: Checkmarx/kics-github-action@v1.0
         with:
           # path to file or directory to scan
-          path: /
+          path: ${PWD}
           # file path to store result in json format
-          output_path: /
+          output_path: ${PWD}
           # file path to store source internal representation in JSON format
           payload_path: # optional
           # path to directory with queries (default "./assets/queries")
