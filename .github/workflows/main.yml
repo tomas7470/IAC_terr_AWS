@@ -31,7 +31,7 @@ jobs:
         uses: Checkmarx/kics-github-action@v1.0
         with:
           # path to file or directory to scan
-          path: 'IAC_terr_AWS'
+          path: '/home/runner/work/IAC_terr_AWS/IAC_terr_AWS'
           # file path to store result in json format
           output_path: 'results.json'
           
